@@ -47,6 +47,7 @@ ol {
   flex-direction: row;
   align-content: center;
   overflow: hidden;
+  padding-top: 138px;
 }
 
 .result {
