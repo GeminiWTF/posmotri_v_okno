@@ -61,6 +61,7 @@ ol {
   flex-direction: column;
   gap: 30px;
 }
+
 .content__list-item {
   height: 107px;
 }
@@ -202,6 +203,7 @@ ol {
   text-decoration: none;
   color: white;
 }
+
 .result__video-container {
   width: 711px;
   height: 386px;
@@ -269,6 +271,7 @@ input {
   border-top: #fff solid 1px;
   border-bottom: #fff solid 1px;
 }
+
 input:active {
   background-color: transparent;
   color: white;
@@ -282,6 +285,7 @@ input:active {
   border-top: #fff solid 1px;
   border-bottom: #fff solid 1px;
 }
+
 input:focus {
   background-color: transparent;
   color: white;
@@ -301,6 +305,7 @@ label span {
   outline: white solid 1px;
   vertical-align: middle;
 }
+
 .search-form__pseudo-checkbox {
   background-color: transparent;
   margin-left: 5px;
@@ -312,6 +317,7 @@ label span {
   margin-right: 5px;
   outline: none;
 }
+
 .search-form__label-text:hover {
   background-color: transparent;
   width: 35px;
