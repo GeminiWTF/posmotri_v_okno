@@ -84,7 +84,6 @@ ol {
 }
 
 .search-form__fieldset-title {
-  padding-left: 3px;
   font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: normal;
@@ -95,7 +94,7 @@ ol {
   font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: normal;
-  width: 225px;
+  width: 212px;
   border: none;
 }
 
@@ -110,10 +109,10 @@ ol {
 }
 
 .search-form__submit-button {
-  padding-bottom: 4px;
-  padding-top: 4px;
-  margin-top: 21px;
-  width: 198px;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  margin-top: 19px;
+  width: 194px;
   background-color: inherit;
   border: 1px solid white;
   color: white;
@@ -139,14 +138,15 @@ ol {
 
 .search-form__checkbox-list {
   appearance: none;
-  padding-top: 2px;
-  padding-left: 1px;
+  padding-top: 3px;
+  display: flex;
+  gap: 15px;
 }
 
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  height: 107px;
+  padding: 1px 0;
 }
 
 .content__video-card-description-container {
@@ -171,7 +171,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  object-position: 0 2px;
+  object-position: 0 0;
   object-fit: cover;
   width: 199px;
   height: 103px;
@@ -179,7 +179,6 @@ ol {
 
 .content__card-link {
   display: block;
-  margin-top: 1px;
   text-decoration: none;
   color: white;
 }
@@ -202,7 +201,7 @@ ol {
   font-weight: bold;
   font-family: Oswald, Arial, Helvetica, sans-serif;
   font-size: 30px;
-  line-height: 31px;
+  line-height: 35px;
   width: 199px;
   text-transform: uppercase;
 }
@@ -226,7 +225,7 @@ ol {
 
 .more-button {
   font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
-  padding-top: 8px;
+  padding-top: 6px;
   padding-bottom: 6px;
   width: 399px;
   border: 1px solid white;
@@ -247,17 +246,16 @@ ol {
 }
 
 .search-form__textfield {
-  margin-top: 4px;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  margin-top: 6px;
+  padding-top: 2px;
   background-color: transparent;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   font-weight: normal;
   border: none;
   box-sizing: border-box;
-  width: 100%;
+  width: 225px;
   border-top: #fff solid 1px;
   border-bottom: #fff solid 1px;
 }
@@ -273,8 +271,8 @@ ol {
   border-bottom: #fff solid 1px;
 }
 
-.search-form__pseudo-checkbox,
-.search-form__label-text {
+.search-form__pseudo-checkbox {
+  background-color: transparent;
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -282,16 +280,11 @@ ol {
   vertical-align: middle;
 }
 
-.search-form__pseudo-checkbox {
-  background-color: transparent;
-  margin-left: 5px;
-}
-
 .search-form__label-text {
   background-color: transparent;
-  width: 35px;
-  margin-right: 5px;
+  display: inline-block;
   outline: none;
+  vertical-align: middle;
 }
 
 .search-form__label-text:hover {
